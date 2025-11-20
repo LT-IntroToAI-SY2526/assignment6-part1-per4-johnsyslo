@@ -1,7 +1,7 @@
 # Assignment 6 Part 1 - Writeup
 
-**Name:** _______________  
-**Date:** _______________
+**Name:** JP Syslo  
+**Date:** 11/20/25
 
 ---
 
