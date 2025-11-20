@@ -55,7 +55,7 @@ def create_scatter_plot(data):
 
     # TODO: Create a scatter plot with Hours on x-axis and Scores on y-axis
     #       Use color='purple' and alpha=0.6
-    plt.scatter(data['Hours'], data['Scores'], color='blue', alpha=0.6)
+    plt.scatter(data['Hours'], data['Scores'], color='purple', alpha=0.6)
     
     # TODO: Add x-axis label: 'Hours Studied'
     plt.xlabel('Hours Studied', fontsize=12)
@@ -164,7 +164,7 @@ def evaluate_model(model, X_test, y_test):
     
     print(f"\nMean Squared Error: {mse:.2f}")
     print(f"Root Mean Squared Error: {rmse:.2f}")
-    print(f"  → Interpretation: On average, predictions are off by {rmse:.2f}")
+    print(f"  → Interpretation: On average, predictions are off by {rmse:.2f} points")
     
     # TODO: Return the predictions
     return predictions
